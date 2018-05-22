@@ -3,7 +3,7 @@
 Creating a dynamic theme for Firefox 58 and +
 
 ![Screenshot](screenshots/header.png "header")
- 
+
 ## What it does
 
 The extension shows how to build a theme in a webExtension
