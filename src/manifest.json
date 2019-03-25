@@ -1,10 +1,10 @@
 {
-  "description": "Theme using a PNG as the headerURL image, employing a faded edge. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#themes",
+  "description": "View elePHPant in the header of browser",
   "manifest_version": 2,
-  "name": "theme dynamic",
-  "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/themes-with-api/weta_fade",
-
+  "name": "theme elePHPant",
+  "version": "1.0.1",
+  "homepage_url": "https://github.com/hellosct1/theme-dynamic",
+    
   "background": {
     "scripts": ["background/background.js"]
   },
