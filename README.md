@@ -25,11 +25,10 @@ The extension changes the colors "accentcolor" and "textcolor"
 - [theme](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/theme/)
 - [windows.onCreated.addListener()](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/windows/onCreated)
 - [windows.getAll()](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/windows/getAll)
-
 - [manifest.json : theme](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/theme)
 
 
 ## Crédit
 (c) Christophe Villeneuve aka Hello / Sector One
 
-Réalisé en 2018
+Réalisé en 2018-2019
