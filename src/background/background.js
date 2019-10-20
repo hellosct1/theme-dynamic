@@ -1,25 +1,24 @@
-function themeWindow(window) {   
-    browser.theme.update(window.id, 
+function themeWindow(window) {
+    browser.theme.update(window.id,
     {
       "images": {
-	"headerURL": "resource/empty.png",
-	"additional_backgrounds": [ 
+	"theme_frame": "resource/empty.png",
+	"additional_backgrounds": [
 	  "resource/elephpant.png"
-	]	
+	]
       },
       "properties": {
-	"additional_backgrounds_alignment": [ 
-	  "right top" 
+	"additional_backgrounds_alignment": [
+	  "right top"
 	]
       },
       "colors": {
-       "accentcolor": "#3F5066",
-       "textcolor": "#FFFFFF", 
+       "frame": "#3F5066",
+       "tab_background_ext": "#FFFFFF",
       }
-      
+
     });
 }
-  
+
 browser.windows.onCreated.addListener(themeWindow);
 browser.windows.getAll().then(wins => wins.forEach(themeWindow));
-

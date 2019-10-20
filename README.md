@@ -1,6 +1,7 @@
 # Theme dynamic
 ## Introduction
 Creating a dynamic theme for Firefox 58 and +
+Compatibility with firefox 70
 
 ![Screenshot](screenshots/header.png "header")
 
@@ -19,7 +20,7 @@ On top, an image shows a PHP elePHPant
 it will be aligned at the top right of the header
 The extension changes the colors "accentcolor" and "textcolor"
 
-## API use : 
+## API use :
 
 - [theme](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/theme/)
 - [windows.onCreated.addListener()](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/windows/onCreated)
@@ -32,6 +33,3 @@ The extension changes the colors "accentcolor" and "textcolor"
 (c) Christophe Villeneuve aka Hello / Sector One
 
 Réalisé en 2018
-
-
-
